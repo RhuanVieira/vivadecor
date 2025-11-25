@@ -19,9 +19,9 @@
         <button class="close-btn" id="closeBtn">✖</button>
 
         <a href="#">Início</a>
-        <a href="#">Sobre</a>
-        <a href="#">Serviços</a>
-        <a href="#">Contato</a>
+        <a href="#hero">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contatos">Contato</a>
 
         <button class="btn-cadastrar mobile">Cadastre-se</button> 
     </nav>
@@ -33,7 +33,7 @@
     </button>
 </header>
 
-    <section class="hero ">
+    <section class="hero" id="hero">
 
     <div class="hero-text">
         <h1>Design Interior</h1>
@@ -120,7 +120,7 @@
 
 </section>
 
-<section class="steps-section reveal">
+<section class="steps-section reveal" id="servicos">
 
     <div class="steps-content">
 
@@ -228,7 +228,7 @@ Altamente recomendado!</p>
     </div>
 </section>
     
-<footer class="footer">
+<footer class="footer" id="contatos">
     <div class="footer-container">
 
         <div class="footer-col">
@@ -275,7 +275,7 @@ const menuBtn = document.getElementById("menuBtn");
 const closeBtn = document.getElementById("closeBtn");
 const navMenu = document.getElementById("navMenu");
 
-// Criar overlay
+
 const overlay = document.createElement("div");
 overlay.classList.add("menu-overlay");
 document.body.appendChild(overlay);

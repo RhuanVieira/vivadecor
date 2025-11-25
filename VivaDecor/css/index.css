@@ -19,7 +19,7 @@ body {
     height: 100px;
 }
 
-/* NAV DESKTOP */
+
 .nav {
     display: flex;
     gap: 40px;
@@ -33,7 +33,7 @@ body {
     font-weight: 400;
 }
 
-/* BOTÃO CADASTRAR */
+
 .btn-cta {
     background: #fff;
     color: #000;
@@ -545,9 +545,6 @@ footer {
     color: #fff;
 }
 
-/* ============================
-   MOBILE - MENU LATERAL
-============================ */
 
 @media (max-width: 1000px) {
 
@@ -562,6 +559,7 @@ footer {
 
      .header {
         padding: 20px 30px;
+        width: 90%;
     }
 
     .testimonials{
@@ -573,6 +571,12 @@ footer {
 .testimonials-container{
    justify-content: center;
 }
+.testimonials-title{
+    align-items: center;
+}
+.testimonials-title h2{
+    display: none;
+}
 
 .arrows{
     display: none;
@@ -582,7 +586,6 @@ footer {
         display: none;
     }
 
-    /* ESCONDE NAV E BOTÃO DESKTOP */
     .nav {
         position: fixed;
         top: 0;
@@ -620,7 +623,7 @@ footer {
         font-size: 20px;
     }
 
-    /* BOTÃO X */
+
     .close-btn {
         display: block;
         background: none;
@@ -631,7 +634,7 @@ footer {
         margin-bottom: 20px;
     }
 
-    /* BOTÃO CADASTRAR DENTRO DO MENU */
+   
     .btn-cadastrar.mobile {
         display: block;
         width: 100%;
@@ -643,12 +646,11 @@ footer {
         margin-top: 30px;
     }
 
-    /* ESCONDE BOTÃO DESKTOP */
+   
     .btn-cadastrar.desktop {
         display: none;
     }
 
-    /* BOTÃO HAMBURGUER */
     .menu-btn {
         display: flex;
         flex-direction: column;
@@ -682,8 +684,7 @@ footer {
         padding: 20px 30px;
     }
 
-    /* ------ resto do seu CSS mobile permanece igual ------ */
-
+   
     .hero {
         flex-direction: column;
         text-align: center;
@@ -731,7 +732,7 @@ footer {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
 
     .header {
         padding: 20px 25px;
@@ -756,6 +757,7 @@ footer {
         align-items: center;
     }
 
+    
     .steps-text h2 {
         font-size: 36px;
     }
@@ -801,7 +803,7 @@ footer {
     transform: translateY(0);
 }
 
-/* VARIAÇÕES (se quiser usar depois) */
+
 .reveal-left {
     opacity: 0;
     transform: translateX(-50px);
