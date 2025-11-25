@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    
+}
+
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+:root{
+
+    --cor-primaria:#1f1f1f;
+    --cor-secundaria:#FAFAFA;
+    --cor-cinza-escuro:#33303e;
+    --cor-cinza-claro:#f1f0f5;
+}
